@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #95d8ce;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.titulo{
+    width: auto;
+    height: 180px;
+    background-color: #84bab8;
+    mask-image: url(/img/spa-1.jpg);
+    text-align: center;
+    position: relative;
+}
+
+.titulo h2{
+    color: whitesmoke;
+    padding-top: 15px;
+    text-shadow: 3px 3px 2px #474747;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.text{
+    padding-top: 15px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.text p{
+    padding-top: 5px;
+    color: #84bab8;
+    padding-bottom: 5px;
+}
+
+.text hr{
+    color: #84bab8;
+    height: 1px;
+    background-color: #84bab8;
+}
+
+.info{
+    display: flex;
+    padding-top: 15px;
+}
+
+.info h2,h3{
+    padding: 15px;
+    color: #84bab8;
+}
+.info li{
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px
+    
+}
+
+.info-left{
+    border-right: dashed #84bab8;;
+}
+
+.info-text{
+    width: 50%;
+}
+
+.info-text li{
+    list-style: none;
+}
+
+.imagenes img{
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.fa-clock{
+    color: #95d8ce;
+}
+
+.time {
+    color: #84bab8;
+}
+
+.info-table h2{
+    text-align: center;
+    padding: 15px;
+    color: #84bab8;
+}
+
+.info-list{
+    color: #95d8ce;
+    font-style: italic;
+}
+
+.info-product{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-product li{
+    list-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .titulo{
+        height: 100px;
+    }
+    .imagenes{
+    justify-content: space-around;
+    }
+
+
+    .imagenes img{
+    width: 150px;
+    height: 150px;
+    }
+}
